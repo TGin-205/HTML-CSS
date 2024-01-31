@@ -1,0 +1,52 @@
+.row{
+    display: grid;
+    grid-template-columns: 72% 7% 7% 7% 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row2 {
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row3 img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.anhltap {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.anhltap img {
+    width: 99%;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+.thunho {
+    width: 97%;
+}
+.all{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text {
+    display: grid;
+   grid-template-columns: 66.66% 33.33%;
+}
+.relative {
+    position: relative;
+
+}
+.row3 .textbanner{
+    position: absolute;
+    top: 0px;
+   margin-left: 350px;
+color: rgb(190, 218, 211);
+}
+.textbanner2 p {
+    text-align: center;
+}
