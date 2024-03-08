@@ -1,0 +1,110 @@
+.container {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+header {
+   display: block;
+}
+
+
+.row2 {
+   position: relative;
+
+}
+
+h1 {
+   width: 0;
+   min-width: 100%;
+
+}
+
+.text {
+   position: absolute;
+   width: 100%;
+   top: 3%;
+   text-align: center;
+
+   color: aliceblue;
+   font-size: 50%;
+
+   h1 {
+      font-size: 15px;
+   }
+
+
+
+}
+
+.textextra {
+   width: 100%;
+}
+
+.row div {
+   padding: 3px 2px;
+
+}
+
+.row img {
+   width: 100%;
+   border-radius: 10px;
+   padding-bottom: 4px;
+}
+
+#picture {
+   height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+   /* For tablets: */
+   #collapsibleNavbar {
+      margin-left: 35%;
+   }
+}
+
+@media only screen and (min-width: 987px) {
+   #text5 {
+
+      padding-left: 20%;
+
+   }
+
+   /* For desktop: */
+   
+   .text {
+      font-size: 120%;
+      
+      h1 {
+         font-size: 40px;
+      }
+      
+      color: rgb(190, 218, 211);
+      
+   }
+   
+   .text3 {
+
+      width: 100%;
+   }
+   
+   .row img {
+      padding: 0 3px;
+   }
+
+   #collapsibleNavbar {
+      margin-left: 60%;
+   }
+}
+
+.navbar-toggler {
+   margin-left: 35%;
+}
+
+.navbar-nav {
+   margin-left: 4%;
+   flex-direction: column;
+}
