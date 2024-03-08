@@ -28,7 +28,7 @@ h1 {
    top: 3%;
    text-align: center;
 
-   color: aliceblue;
+color: rgb(190, 218, 211);
    font-size: 50%;
 
    h1 {
@@ -57,7 +57,7 @@ h1 {
 #picture {
    height: 100%;
 }
-
+/* For mobile */
 @media only screen and (min-width: 768px) {
 
    /* For tablets: */
@@ -67,13 +67,13 @@ h1 {
 }
 
 @media only screen and (min-width: 987px) {
+   /* For desktop: */
    #text5 {
 
       padding-left: 20%;
 
    }
 
-   /* For desktop: */
    
    .text {
       font-size: 120%;
@@ -105,6 +105,6 @@ h1 {
 }
 
 .navbar-nav {
-   margin-left: 4%;
+   margin-left: 2%;
    flex-direction: column;
 }
