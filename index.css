@@ -44,7 +44,7 @@ h1 {
 }
 
 .row div {
-   padding: 3px 12px;
+   padding: 3px 10px;
 
 }
 
@@ -91,11 +91,11 @@ h1 {
    .text3 {
 
       width: 100%;
-      padding: 0 2px
    }
 
    .row img {
       width: 100%;
+      padding: 5px 0px
       
    }
 
